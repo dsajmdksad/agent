@@ -1,0 +1,58 @@
+2026-06-09 22:14:18,775 - agent - INFO - logger_handler.py:56 - 信息日志
+2026-06-09 22:14:18,778 - agent - ERROR - logger_handler.py:57 - 错误日志
+2026-06-09 22:14:18,778 - agent - WARNING - logger_handler.py:58 - 警告日志
+2026-06-09 22:14:18,778 - agent - DEBUG - logger_handler.py:59 - 调试日志
+2026-06-09 22:35:37,733 - agent - INFO - vector_store.py:74 - [加载知识库]C:\Users\27015\Desktop\代码\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-06-09 22:35:37,735 - agent - INFO - vector_store.py:74 - [加载知识库]C:\Users\27015\Desktop\代码\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-06-09 22:35:37,737 - agent - INFO - vector_store.py:74 - [加载知识库]C:\Users\27015\Desktop\代码\AI大模型RAG与智能体开发_Agent项目\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-06-09 22:35:37,738 - agent - INFO - vector_store.py:74 - [加载知识库]C:\Users\27015\Desktop\代码\AI大模型RAG与智能体开发_Agent项目\data\故障排除.txt内容已经存在知识库内，跳过
+2026-06-09 22:35:37,739 - agent - INFO - vector_store.py:74 - [加载知识库]C:\Users\27015\Desktop\代码\AI大模型RAG与智能体开发_Agent项目\data\维护保养.txt内容已经存在知识库内，跳过
+2026-06-09 22:35:37,740 - agent - INFO - vector_store.py:74 - [加载知识库]C:\Users\27015\Desktop\代码\AI大模型RAG与智能体开发_Agent项目\data\选购指南.txt内容已经存在知识库内，跳过
+2026-06-09 22:42:28,376 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-09 22:42:28,376 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-06-09 22:42:30,843 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-06-09 22:42:30,844 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-09 22:42:30,844 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-06-09 22:42:30,845 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-09 22:42:30,845 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1003
+2026-06-09 22:42:32,665 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-06-09 22:42:32,665 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-09 22:42:32,666 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-06-09 22:42:32,667 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-09 22:42:32,667 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-09
+2026-06-09 22:42:34,317 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-06-09 22:42:34,318 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-09 22:42:34,318 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-06-09 22:42:34,319 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-06-09 22:42:34,319 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-06-09 22:42:36,306 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-06-09 22:42:36,306 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1003', 'month': '2025-09'}
+2026-06-09 22:42:36,314 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-06-09 22:42:36,315 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-06-09 22:42:36,315 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"特征": "90㎡ | 1狗 | 短毛地毯", "效率": "毛发清理:91%\\n地毯增压使用:15次/月", "耗材": "胶刷寿命:剩余45天\\n尘盒容量:每日清理1次", "对比": "毛发处理效率前18%"}
+2026-06-09 22:42:38,019 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-09 22:42:38,019 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '宠物家庭扫地机器人保养建议'}
+2026-06-09 22:42:42,547 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-09 22:42:42,547 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-06-09 22:42:42,547 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 宠物家庭使用扫地机器人需定期清理滚刷和滤网，防止宠物毛发缠绕；建议每周检查边刷和传感器是否被毛发堵塞，并及时清理尘盒；使用后应清空尘盒并清洗可水洗部件，保持机器内部干燥，避免异味和细菌滋生。
+2026-06-09 22:44:55,524 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-09 22:44:55,524 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | who are you
+2026-06-09 22:47:22,866 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-09 22:47:22,866 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在位置下，机器人如何保养
+2026-06-09 22:47:27,364 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-06-09 22:47:27,365 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-09 22:47:27,367 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-06-09 22:47:27,433 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-09 22:47:27,435 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 合肥
+2026-06-09 22:47:33,683 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-06-09 22:47:33,683 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-06-09 22:47:33,684 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-06-09 22:47:34,533 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-09 22:47:34,534 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市合肥天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-06-09 22:47:39,745 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-09 22:47:39,745 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人日常保养指南 温湿度适中环境'}
+2026-06-09 22:47:44,110 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-09 22:47:45,817 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-06-09 22:47:45,818 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 在温湿度适中的环境中，扫地机器人日常保养应定期清理尘盒、滤网和滚刷，避免灰尘堆积影响性能；及时擦拭传感器和充电触点，确保正常工作与充电；检查边刷和主刷是否缠绕毛发或异物，并定期更换易损件。
+2026-06-09 22:49:13,231 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-09 22:49:13,232 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是我做出来的agent，你知道吗
